@@ -1,6 +1,6 @@
 <?php
 
-class dosen extends CI_Controller{
+class Dosen extends CI_Controller{
   function __construct(){
 			parent::__construct();
 			$this->load->model('dosen_model', 'dosen');

@@ -1,6 +1,6 @@
 <?php
 
-class tugas extends CI_Controller{
+class Tugas extends CI_Controller{
   function __construct(){
 			parent::__construct();
 			$this->load->model('tugas_model', 'tugas');

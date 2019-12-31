@@ -1,6 +1,6 @@
 <?php
 
-class detail_kelas extends CI_Controller{
+class Detail_kelas extends CI_Controller{
   function __construct(){
 			parent::__construct();
 			$this->load->model('detail_kelas_model', 'dk');

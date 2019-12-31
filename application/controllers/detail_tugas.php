@@ -1,6 +1,6 @@
 <?php
 
-class detail_tugas extends CI_Controller{
+class Detail_tugas extends CI_Controller{
   function __construct(){
 			parent::__construct();
 			$this->load->model('detail_tugas_model', 'dt');
@@ -45,7 +45,7 @@ class detail_tugas extends CI_Controller{
   	public function dt_add()
   	{
       $kelas = $this->input->post('kelas');
-      $tugas = $this->input->post('nam a_tugas');
+      $tugas = $this->input->post('nama_tugas');
       $dosen = $this->input->post('dosen');
       $matakuliah = $this->input->post('matkul');
       $dir = "./assets/uploads/$matakuliah/$dosen/$kelas/$tugas/";

@@ -1,6 +1,6 @@
 <?php
 
-class nilai_tugas extends CI_Controller{
+class Nilai_tugas extends CI_Controller{
   function __construct(){
 			parent::__construct();
 			$this->load->model('nilai_tugas_model', 'nt');

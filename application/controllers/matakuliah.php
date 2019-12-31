@@ -1,6 +1,6 @@
 <?php
 
-class matakuliah extends CI_Controller{
+class Matakuliah extends CI_Controller{
   function __construct(){
 			parent::__construct();
 			$this->load->model('matkul_model', 'matkul');
